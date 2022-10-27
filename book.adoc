@@ -7,7 +7,16 @@ Author Name
 :toclevels: 2
 :numbered:
 :showtitle:
-
+//https://github.com/asciidocfx/AsciidocFX/issues/130
+//https://github.com/asciidocfx/AsciidocFX/issues/114
+//FRONT COVER PAGE
+//PURE IMAGE PAGE ONLY, BEFORE TITLE PAGE
+:front-cover-image: image:front-cover.png[]
+//TITLE PAGE
+:title-page:
+//ADD IMAGE IN TITLE PAGE 
+:title-page-background-image: image:title-bg.png[]
+//:title-logo-image: image:logo.png[top=25%,align=center,pdfwidth=0.5in]
 
 ////
 Change Book Name, Author's Name and Language for your need.
