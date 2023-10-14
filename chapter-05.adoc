@@ -55,4 +55,5 @@ It is also possible to load content from another file
 
 This is MathML block macro (content from file).
 
+// It will load content from file mathml(.txt)
 mathml::mathml[] 
