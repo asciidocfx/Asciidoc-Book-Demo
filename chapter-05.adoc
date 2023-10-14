@@ -1,6 +1,6 @@
 == Using Mathematical Formulas
 
-http://www.mathjax.org/[MathJax] is an open source JavaScript display engine for (((mathematics)))mathematics that works in all browsers. In addition to png output, you can produce svg output also. Just change the extension.
+http://www.mathjax.org/[MathJax] is an open source JavaScript display engine for (((mathematics)))mathematics that works in all browsers. 
 
 .Tex Example
 [latexmath,target="tex-formula"]
@@ -46,3 +46,13 @@ You can use (((Tex)))Tex or (((MathML)))MathML languages for describing mathemat
   <mtext>.</mtext>
 </math>
 --
+
+It is also possible to define formulas as an inline element
+
+This is Inline latex formula latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon] in the middle of the sentence, and this is Tex inline tex:[\(ax^3+ bx + c = 0\)]
+
+It is also possible to load content from another file
+
+This is MathML block macro (content from file).
+
+mathml::mathml[] 
